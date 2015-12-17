@@ -1,5 +1,6 @@
 # ExeRunnerPro-475-2151_Bush_Garbutt_Reynolds
 
+
 What EXERunnerPro does:
 
 1) Determine what all artifacts are that left by any program when you install or run it. 
@@ -31,4 +32,5 @@ Technical notes:
 * The file/folder snapshots and the diffs are made using the Export-Clixml and imported using Import-Clixml.
 * What is being exported and imported is hashtable whose key is the full path to the file/folder and the value is a custom PS Object of the recorded metrics. 
 * As of 11/13/2015 metrics recorded are MD5 Hash, SHA1 Hash, Last Accessed Time, Last Modified Time, Creation Time
-* The MAC times are saved in ticks
+* The MAC times are saved in UTC
+*Can be compiled using PowerGUI - http://en.community.dell.com/techcenter/powergui 
